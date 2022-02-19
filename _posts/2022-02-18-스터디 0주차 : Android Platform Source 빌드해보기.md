@@ -30,7 +30,7 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 <center><img src="/assets/images/0/select_python2.7.png" width="100%" height="100%"></center>
 일단 지금은 python2.7을 선택해준다.
 
-<center><img src="/assets/images/0/download_repo.png" width="100%" height="100%"></center>
+<center><img src="assets/images/0/download_repo.PNG" width="100%" height="100%"></center>
 마지막으로 위 명령어들을 통해 repo packge를 설치해준다.
 
 ---
