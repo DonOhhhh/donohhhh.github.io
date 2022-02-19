@@ -12,7 +12,7 @@ vmware10 정식버전 사용법은 잘 찾아보면(?) 찾을 수 있다.
 ---
 # 2. Make new Virtual Machine by using Ubuntu 18.04.6 image.
 
-<center><img src="/assets/images/0/making_virtual_machine.PNG" width="100%" height="100%"></center>
+<center><img src="/assets/images/0/making_virtual_machine.png" width="100%" height="100%"></center>
 vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 선택하여 새로운 가상머신을 만들어준다.
 
 ---
