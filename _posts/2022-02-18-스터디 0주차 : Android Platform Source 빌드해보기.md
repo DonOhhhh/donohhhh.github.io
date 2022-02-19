@@ -24,7 +24,7 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 <center><img src="/assets/images/0/python2.7_download.PNG" width="100%" height="100%"></center>
 그리고 python2.7이 깔려있지 않으면 python 2.7버전을 설치해준다.
 
-<center><img src="/assets/images/0/ubuntu_python_version_change.PNG" width="100%" height="100%"></center>
+<center><img src="/assets/images/0/ubuntu_python_version change.PNG" width="100%" height="100%"></center>
 그 후 위 명령어들을 쳐서 python3과 python2.7을 자유롭게 선택할 수 있도록 해준다.
 
 <center><img src="/assets/images/0/select_python2.7.PNG" width="100%" height="100%"></center>
