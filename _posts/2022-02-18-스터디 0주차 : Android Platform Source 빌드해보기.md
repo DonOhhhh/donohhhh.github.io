@@ -9,11 +9,13 @@ vmware10 정식버전 사용법은 잘 찾아보면(?) 찾을 수 있다.
 <center><img src="/assets/images/0/ubuntu_image_download.png" width="100%" height="100%"></center>
 그리고 ubuntu 공식 홈페이지에서 ubuntu 18.04.6버전의 iso 파일을 다운로드 해준다.
 
+---
 # 2. Make new Virtual Machine by using Ubuntu 18.04.6 image.
 
 <center><img src="/assets/images/0/making_virtual_machine.png" width="100%" height="100%"></center>
 vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 선택하여 새로운 가상머신을 만들어준다.
 
+---
 # 3. Log in to the Virtual OS and download python2.7 and python3.6 and repo.
 
 <center><img src="/assets/images/0/python_version_check.png" width="100%" height="100%"></center>
@@ -31,6 +33,7 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 <center><img src="/assets/images/0/download_repo.png" width="100%" height="100%"></center>
 마지막으로 위 명령어들을 통해 repo packge를 설치해준다.
 
+---
 # 4. Download Android Platform Sources
 
 <center><img src="/assets/images/0/repo_init.png" width="100%" height="100%"></center>
@@ -52,4 +55,5 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 
 이 오류는 아무리 찾아봐도 어떻게 해결하는지 도무지 방법을 알 수 없어서 이상의 과정을 진행할 수가 없었다.
 
+---
 # 5. Build Platform Sources
