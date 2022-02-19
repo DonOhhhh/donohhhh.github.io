@@ -1,7 +1,6 @@
 준비물 : Vmware or Virtual Box
 
-1. Install Vmware Workstation or Virtual Box.
----
+# 1. Install Vmware Workstation or Virtual Box.
 
 <center><img src="/assets/images/0/vmware_installation.png" width="100%" height="100%"></center>
 위 사진은 vmware16이지만 필자는 vmware10 버전을 선택했다. 왜냐하면 나온지 오래됐기 때문에 체험판이 아닌 정식버전을 쓸 수 있기 때문이다.
@@ -10,14 +9,12 @@ vmware10 정식버전 사용법은 잘 찾아보면(?) 찾을 수 있다.
 <center><img src="/assets/images/0/ubuntu_image_download.png" width="100%" height="100%"></center>
 그리고 ubuntu 공식 홈페이지에서 ubuntu 18.04.6버전의 iso 파일을 다운로드 해준다.
 
-2. Make new Virtual Machine by using Ubuntu 18.04.6 image.
-----------------------------------------------------------
+# 2. Make new Virtual Machine by using Ubuntu 18.04.6 image.
 
 <center><img src="/assets/images/0/making_virtual_machine.png" width="100%" height="100%"></center>
 vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 선택하여 새로운 가상머신을 만들어준다.
 
-3. Log in to the Virtual OS and download python2.7 and python3.6 and repo.
---------------------------------------------------------------------------
+# 3. Log in to the Virtual OS and download python2.7 and python3.6 and repo.
 
 <center><img src="/assets/images/0/python_version_check.png" width="100%" height="100%"></center>
 먼저 설치되어 있는 python 버전을 확인한다.
@@ -34,8 +31,7 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 <center><img src="/assets/images/0/download_repo.png" width="100%" height="100%"></center>
 마지막으로 위 명령어들을 통해 repo packge를 설치해준다.
 
-4. Download Android Platform Sources
-------------------------------------
+# 4. Download Android Platform Sources
 
 <center><img src="/assets/images/0/repo_init.png" width="100%" height="100%"></center>
 이제 android platform source를 다운받기 위해 repo init을 진행시켜보면
@@ -56,5 +52,4 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 
 이 오류는 아무리 찾아봐도 어떻게 해결하는지 도무지 방법을 알 수 없어서 이상의 과정을 진행할 수가 없었다.
 
-5. Build Platform Sources
--------------------------
+# 5. Build Platform Sources
