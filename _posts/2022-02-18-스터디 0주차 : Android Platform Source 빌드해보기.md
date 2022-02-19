@@ -1,7 +1,7 @@
 준비물 : Vmware or Virtual Box
 
 1. Install Vmware Workstation or Virtual Box.
----------------------------------------------
+---
 
 <center><img src="/assets/images/0/vmware_installation.png" width="100%" height="100%"></center>
 위 사진은 vmware16이지만 필자는 vmware10 버전을 선택했다. 왜냐하면 나온지 오래됐기 때문에 체험판이 아닌 정식버전을 쓸 수 있기 때문이다.
