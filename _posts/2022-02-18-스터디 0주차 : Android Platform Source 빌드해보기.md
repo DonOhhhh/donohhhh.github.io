@@ -48,7 +48,7 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 <center><img src="/assets/images/0/repo_init_success.PNG" width="100%" height="100%"></center>
 성공적으로 다운로드 된다.
 
-우리팀은 안드로이드6 marshmallow 버전을 다운받기로 했는데 크기가 대략 4.1GB 정도 된다. Full source에 비하면 매우 작은 크기이다.
+[platform_framworks_base](https://github.com/aosp-mirror/platform_frameworks_base.git)에서 안드로이드6 marshmallow branch를 다운받으면 크기가 대략 4.1GB 정도 된다. Full source에 비하면 매우 작은 크기이다.
 
 <center><img src="/assets/images/0/source_download_failed.PNG" width="100%" height="100%"></center>
 그런데 default.xml이 없다면서 오류가 뜨고 제대로 다운로드가 되질 않는다.
