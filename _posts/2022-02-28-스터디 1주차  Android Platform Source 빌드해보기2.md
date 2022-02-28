@@ -21,7 +21,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 이때 만약 
 
-![2.PNG](C:\Users\Don%20Oh\Desktop\images\1\2.PNG)
+![2](/assets/images/1/2.PNG)
 
 이런 오류가 뜬다면 아래의 명령어들을 차례로 입력하여 오류를 잡아준다.
 
@@ -84,7 +84,7 @@ sudo update-alternatives --config python
 
 그리고 해당 명령어를 쳐보면
 
-![3](C:\Users\Don%20Oh\Desktop\images\1\3.PNG)
+![3](/assets/images/1/3.PNG)
 
 위 그림과 같이 python 버전을 선택할 수 있게 나오는데 일단 지금은 python3으로 선택해준다.
 
