@@ -272,7 +272,7 @@ emulator
 
 이 이후에 과정들은 다음 스터디에서 진행하도록 하겠다.
   
-**## 참고한 사이트**
+## **참고한 사이트**
 
 [Building the Android Open Source Project](https://www.raywenderlich.com/10197539-building-the-android-open-source-project)
   
