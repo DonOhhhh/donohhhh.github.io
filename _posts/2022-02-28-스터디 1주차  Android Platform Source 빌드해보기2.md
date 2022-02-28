@@ -110,7 +110,7 @@ repo init 옵션 중에 코드 사이즈를 줄일 수 있는 옵션은 -c , --d
 
 필자는 **android 10**버전을 선택했다. 원래는 android 6버전을 선택하여 진행했었는데 오류가 너무 많아서 빌드하기에 어려움이 있었다. 그래서 10버전으로 선택한 후 진행하였다.
 
-![4.PNG](C:\Users\Don%20Oh\Desktop\images\1\4.PNG)
+![4](/assets/images/1/4.PNG)
 
 ---
 
@@ -174,9 +174,9 @@ project폴더로 이동한 후 해당 폴더 내에 있는 모든 하위 폴더 
 
 Android 10 소스를 다운로드한  폴더(/project)로 이동해서  build/envsetup.sh 와 빌드하고자 하는 target device 와 release 옵션으로 lunch 옵션을 설정해야 한다.  AOSP Tag 정보는 [여기](https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds) 에서 확인할 수 있고, Target Device Name 은 [여기](https://source.android.google.cn/setup/build/running?hl=ko) 에서 선택할 수 있다. 
 
-![5.PNG](C:\Users\Don%20Oh\Desktop\images\1\5.PNG)
+![5](/assets/images/1/5.PNG)
 
-![6.PNG](C:\Users\Don%20Oh\Desktop\images\1\6.PNG)
+![6](/assets/images/1/6.PNG)
 
 android-10.0.0_r36 tag에 해당하는 단말은 Pixel2 와 Pixel 2XL 이다. Pixel 2XL 의 빌드 ID인 asop_taimen 와, 개발용으로 루팅이 가능한 userdebug 를 선택하여 aosp_taimen-userdebug 로 lunch 한다.
 
@@ -196,7 +196,7 @@ m 명령어를 이용하여 코드를 빌드해준다.
 
 # 4. 결과
 
-![7.PNG](C:\Users\Don%20Oh\Desktop\images\1\7.PNG)
+![7](/assets/images/1/7.PNG)
 
 또 실패했다.... 이때 실패한 이유인 "ninja failed with: exited status 137"로 검색을 해보니 
 
@@ -224,11 +224,11 @@ free -m
 
 Android의 시스템 requirement를 보면 Swap 포함하여 16GB 이상이니 안전하게 20 GB 로 설정한다.
 
-![8.PNG](C:\Users\Don%20Oh\Desktop\images\1\8.PNG)
+![8](/assets/images/1/8.PNG)
 
 그 후 다시 m 명령어를 이용하여 빌드를 시도하였다.
 
-![9.PNG](C:\Users\Don%20Oh\Desktop\images\1\9.PNG)
+![9](/assets/images/1/9.PNG)
 
 이번엔 OutofMemoryError가 발생했는데 이는 java의 heap space의 부족으로 발생한 것이다. api-stub-docs 의 Java 실행 시 HeapSize 에 대한 명시적 선언없이 default 값으로 사용되다보니 이런 에러가 발생한 것 같다. JDK 9 의 Java Heap Size의 default는 2GB 로 설정되어 있고, 이를 아래 명령어를 사용하여 4GB를 늘려서 수정하였다. 
 
@@ -248,11 +248,11 @@ export _JAVA_OPTIONS=-Xmx4g
 
 수정 전
 
-![10.PNG](C:\Users\Don%20Oh\Desktop\images\1\10.PNG)
+![10](/assets/images/1/10.PNG)
 
 수정 후
 
-![11.PNG](C:\Users\Don%20Oh\Desktop\images\1\11.PNG)
+![11](/assets/images/1/11.PNG)
 
 다시 m 명령어를 실행하였다.
 
@@ -260,7 +260,7 @@ export _JAVA_OPTIONS=-Xmx4g
 
 드디어!!!! 성공하였다.
 
-![12.PNG](C:\Users\Don%20Oh\Desktop\images\1\12.PNG)
+![12](/assets/images/1/12.PNG)
 
 ```
 emulator
