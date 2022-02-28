@@ -2,7 +2,7 @@
 
 ## 1) Vmware 설정
 
-![1](C:\Users\Don%20Oh\Desktop\images\1\1.PNG)
+![1](\assets\images\1\1.PNG)
 
 먼저 저번 주차에서 vmware에 ubuntu를 설치를 했었는데 조금 수정할 부분이 있다.
 
