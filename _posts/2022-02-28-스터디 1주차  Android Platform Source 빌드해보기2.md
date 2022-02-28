@@ -103,7 +103,9 @@ repo init -u https://android.googlesource.com/platform/manifest -b [빌드 태] 
 repo init 옵션 중에 코드 사이즈를 줄일 수 있는 옵션은 -c , --depth, --no-tags 옵션이다. 
 
 > 1) -c  옵션:  working branch 만 다운로드 하는 것으로 하나의 branch에서만 코드 작업을 하는 경우 유용하다. -c  옵션 사용하는 경우 branch 간 전환은 할 수 없다. 
+> 
 > 2) --depth 옵션:  git log 로 확인한 가능한 history 개수를 제한한다. 예를 들어,  --depth=100 으로 설정했다면 git log로 100개 까지의 history 를 다운로드 한다.  소스를 처음 받는 경우 repo init 의 depth 옵션은 git clone 시 depth 옵션으로 전달된다. 
+> 
 > 3) --no-tags 옵션:  tag 정보없이  소스를 다운로드 하는 것이다.  Working 소스에서 tag 가 전환이 필요 없는 경우 유용하다.
 
 또한 안드로이드 버전별로 다운받을 수 있는데 이때 -b옵션으로 어떤 버전을 선택할 것인지 빌드 태그를 명시할 수 있다. 안드로이드 버전별 명칭은 [코드명, 태그 및 빌드 번호](https://source.android.google.cn/setup/start/build-numbers?hl=ko#source-code-tags-and-builds)에서 확인할 수 있다.
