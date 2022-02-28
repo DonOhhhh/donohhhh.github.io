@@ -272,20 +272,18 @@ emulator
 
 이 이후에 과정들은 다음 스터디에서 진행하도록 하겠다.
   
-참고한 사이트:
+**참고한 사이트**
 
-![Building the Android Open Source Project](https://www.raywenderlich.com/10197539-building-the-android-open-source-project)
-![우분투에서 파이썬 버전 변경하기](https://seongkyun.github.io/others/2019/05/09/ubuntu_python/)
-![[AOSP] Code Download 안드로이드 P 프리뷰 코드 다운로드](https://spoiler.tistory.com/107?category=662650)
-![Android 소스 최적화 (100GB에서 65GB로 줄이기)](https://kibua20.tistory.com/51)
-![JDK 7(Java 1.7) 설치하기 in Ubuntu 18.04](http://www.wearedev.net/209)
-![OpenJDK 7 Download and Installation on Ubuntu ](https://techoral.com/blog/java/install-openjdk-7-ubuntu.html)
-![building android error java version](https://stackoverflow.com/questions/36885029/building-android-error-java-version)
-![Android 6 compile](https://github.com/nettee/nettee.github.io/issues/2)
-![[리눅스] 우분투 업데이트 에러 Could not get lock /var/lib/dpkg/lock-frontend - open (11: resource temporarily unavailable)](https://bigbigpark.tistory.com/39)
-![Exit code 137 - Out of memory](https://support.circleci.com/hc/en-us/articles/115014359648-Exit-code-137-Out-of-memory)
-![AOSP build error ninja failed with: exit status 1](https://stackoverflow.com/questions/52617313/aosp-build-error-ninja-failed-with-exit-status-1)
-![AOSP Building Failed - ckati failed with: exit status 1](https://stackoverflow.com/questions/64027042/aosp-building-failed-ckati-failed-with-exit-status-1)
-![안드로이드 소스 다운로드](https://source.android.google.cn/setup/build/downloading?hl=ko)
-
-
+[Building the Android Open Source Project](https://www.raywenderlich.com/10197539-building-the-android-open-source-project)
+[우분투에서 파이썬 버전 변경하기](https://seongkyun.github.io/others/2019/05/09/ubuntu_python/)
+[[AOSP] Code Download 안드로이드 P 프리뷰 코드 다운로드](https://spoiler.tistory.com/107?category=662650)
+[Android 소스 최적화 (100GB에서 65GB로 줄이기)](https://kibua20.tistory.com/51)
+[JDK 7(Java 1.7) 설치하기 in Ubuntu 18.04](http://www.wearedev.net/209)
+[OpenJDK 7 Download and Installation on Ubuntu ](https://techoral.com/blog/java/install-openjdk-7-ubuntu.html)
+[building android error java version](https://stackoverflow.com/questions/36885029/building-android-error-java-version)
+[Android 6 compile](https://github.com/nettee/nettee.github.io/issues/2)
+[[리눅스] 우분투 업데이트 에러 Could not get lock /var/lib/dpkg/lock-frontend - open (11: resource temporarily unavailable)](https://bigbigpark.tistory.com/39)
+[Exit code 137 - Out of memory](https://support.circleci.com/hc/en-us/articles/115014359648-Exit-code-137-Out-of-memory)
+[AOSP build error ninja failed with: exit status 1](https://stackoverflow.com/questions/52617313/aosp-build-error-ninja-failed-with-exit-status-1)
+[AOSP Building Failed - ckati failed with: exit status 1](https://stackoverflow.com/questions/64027042/aosp-building-failed-ckati-failed-with-exit-status-1)
+[안드로이드 소스 다운로드](https://source.android.google.cn/setup/build/downloading?hl=ko)
