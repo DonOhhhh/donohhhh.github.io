@@ -4,7 +4,7 @@
 
 # 1. Repo init 준비과정
 
-repo init 준비과정은 [이전 포스트]([스터디 1주차 android platform source 빌드해보기2 - Don Oh’s Blog](https://donohhhh.github.io/%EC%8A%A4%ED%84%B0%EB%94%94-1%EC%A3%BC%EC%B0%A8-Android-Platform-Source-%EB%B9%8C%EB%93%9C%ED%95%B4%EB%B3%B4%EA%B8%B02/))와 동일하니 참고하면 된다.
+repo init 준비과정은 [이전 포스트](https://donohhhh.github.io/%EC%8A%A4%ED%84%B0%EB%94%94-1%EC%A3%BC%EC%B0%A8-Android-Platform-Source-%EB%B9%8C%EB%93%9C%ED%95%B4%EB%B3%B4%EA%B8%B02/)와 동일하니 참고하면 된다.
 
 ---
 
