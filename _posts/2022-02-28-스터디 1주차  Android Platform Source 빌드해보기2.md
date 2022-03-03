@@ -202,7 +202,7 @@ m 명령어를 이용하여 코드를 빌드해준다.
 
 또 실패했다.... 이때 실패한 이유인 "ninja failed with: exited status 137"로 검색을 해보니 
 
-[Building image failed with exit code: 137 · Codefresh | Docs](https://codefresh.io/docs/docs/troubleshooting/common-issues/error-code-137/) 이 사이트에서 "This issue occurs where you are low on pipeline resources. The build step does not have enough memory to finish building." 이런 말이 나왔다. 그래서 빌드간에 memory의 용량을 늘리려고 찾아보니 swap 크기를 늘리면 된다는 정보가 있었다. 그래서 swap의 크기를 늘리려면 다음의 명령어들을 수행해야 한다.
+[이 사이트](https://codefresh.io/docs/docs/troubleshooting/common-issues/error-code-137/) 에서 "This issue occurs where you are low on pipeline resources. The build step does not have enough memory to finish building." 이런 말이 나왔다. 그래서 빌드간에 memory의 용량을 늘리려고 찾아보니 swap 크기를 늘리면 된다는 정보가 있었다. 그래서 swap의 크기를 늘리려면 다음의 명령어들을 수행해야 한다.
 
 ```
 # swap 비활성
