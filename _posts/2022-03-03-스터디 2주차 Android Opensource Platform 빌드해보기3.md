@@ -93,7 +93,7 @@ lunch aosp_shamu-userdebug
 m -j4
 ```
 
-위 명령어를 이용하여 소스를 빌드해준다. 쓰레드를 4개만 쓰는 이유 [여기]([android - AOSP build error ninja failed with: exit status 1 - Stack Overflow](https://stackoverflow.com/questions/52617313/aosp-build-error-ninja-failed-with-exit-status-1) 에서 언급된것처럼 outofmemoryerror가 너무 많은 쓰레드가 동시에 실행되다보니 발생하는 거라고하여 일부러 줄여주었다.
+위 명령어를 이용하여 소스를 빌드해준다. 쓰레드를 4개만 쓰는 이유 [여기](https://stackoverflow.com/questions/52617313/aosp-build-error-ninja-failed-with-exit-status-1) 에서 언급된것처럼 outofmemoryerror가 너무 많은 쓰레드가 동시에 실행되다보니 발생하는 거라고하여 일부러 줄여주었다.
 
 ---
 
