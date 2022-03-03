@@ -95,7 +95,7 @@ sudo update-alternatives --config python
 ## 1) repo init
 
 ```
-repo init -u https://android.googlesource.com/platform/manifest -b [빌드 태] -c --depth=1 --no-tags
+repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r36 -c --depth=1 --no-tags
 ```
 
 위 명령어를 이용하여 Android 소스를 다운받아준다. 하지만 그냥 repo init으로 초기화를 시켜주면 소스의 용량이 너무 커지게 된다. 그래서 소스의 필요한 부분만 가져올 수 있도록 옵션을 줄 것이다.
