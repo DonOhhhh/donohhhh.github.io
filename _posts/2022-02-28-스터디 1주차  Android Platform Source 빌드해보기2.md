@@ -1,3 +1,6 @@
+---
+categories: [AOSP]
+---
 # 1. repo init 준비과정
 
 ## 1) Vmware 설정
