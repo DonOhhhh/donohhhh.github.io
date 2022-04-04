@@ -20,7 +20,7 @@ title                    : "Don Oh's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Don Oh"
-description              : "My First Github Blog!"
+description              : "2022 Graduate Project,CNU CSE"
 url                      : "https://donohhhh.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Don Oh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My First Github Blog!"
+  bio              : "2022 Graduate Project,CNU CSE"
   location         : "Daejeon, Republic of South Korea"
-  email            :
+  email            : "201904014@o.cnu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -255,10 +255,9 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
+jekyll-archives:
+   enabled: categories
+#    - tags
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
