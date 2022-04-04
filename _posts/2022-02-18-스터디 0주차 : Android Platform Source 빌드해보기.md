@@ -1,3 +1,6 @@
+---
+categories: [AOSP]
+---
 준비물 : Vmware or Virtual Box
 
 # 1. Install Vmware Workstation or Virtual Box.
