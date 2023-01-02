@@ -58,5 +58,3 @@ vmware에서 new virtual machine을 선택한다. 그리고 next, next, next를 
 
 이 오류는 아무리 찾아봐도 어떻게 해결하는지 도무지 방법을 알 수 없어서 이상의 과정을 진행할 수가 없었다.
 
----
-# 5. Build Platform Sources
