@@ -302,3 +302,4 @@ emulator
 [AOSP Building Failed - ckati failed with: exit status 1](https://stackoverflow.com/questions/64027042/aosp-building-failed-ckati-failed-with-exit-status-1)
   
 [안드로이드 소스 다운로드](https://source.android.google.cn/setup/build/downloading?hl=ko)
+  
