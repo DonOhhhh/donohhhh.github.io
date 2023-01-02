@@ -235,3 +235,4 @@ ART_HOST_CLANG := false로 바꾸면 된다는 내용이었다.
 [Android 源码编译aidl_language_l 相关错误解决](https://blog.csdn.net/xljxiang/article/details/83044067)
 
 [https://blog.krybot.com/a?ID=01200-2e7eb1e7-ebc5-44ac-b621-691f6d33fed6](https://blog.krybot.com/a?ID=01200-2e7eb1e7-ebc5-44ac-b621-691f6d33fed6)
+
