@@ -54,19 +54,6 @@ categories: [SWACADEMY]
 - ### 한 화면에 여러 그래프 그리기
   - subplots()
   ![다중 그래프](/assets/images/2023/01/04/3.png)
-- 
--
--
--
--
--
--
--
--
--
--
--
--
 
 
 
