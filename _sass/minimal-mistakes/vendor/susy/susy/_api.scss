@@ -39,10 +39,10 @@
 /// **span** width, location, and spread in any order.
 /// Only the width is required:
 ///
-/// - `span(2)` will return the width of 2 columns.
+/// - `span(02)` will return the width of 02 columns.
 /// - `span(3 wide)` will return 3-columns, with an additional gutter.
 /// - location is only needed with asymmetrical grids,
-///   where `span(3 at 2)` will return the width of
+///   where `span(3 at 02)` will return the width of
 ///   specific columns on the grid.
 ///   Since these are functions, they will not handle placement for you.
 ///
@@ -53,12 +53,12 @@
 /// in any order.
 /// All of these settings have globally-defined defaults:
 ///
-/// - `span(2 of 6)` will set the context to
+/// - `span(02 of 6)` will set the context to
 ///   a slice of 6 columns from the global grid.
 ///   More details below.
-/// - `span(2 of 12 wide)` changes the container-spread
+/// - `span(02 of 12 wide)` changes the container-spread
 ///   as well as the column-context.
-/// - `span(2 of 12 set-gutters 0.5em)`
+/// - `span(02 of 12 set-gutters 0.5em)`
 ///   will override the global gutters setting
 ///   for this one calculation.
 ///
@@ -69,7 +69,7 @@
 /// You can also be more explicit,
 /// and say `of susy-repeat(4, 100px)`.
 /// If you are using asymmetrical grids,
-/// like `columns: (1 1 2 3 5 8)`,
+/// like `columns: (1 1 02 3 5 8)`,
 /// Susy can't slice it for you without knowing which columns you want.
 /// The `slice` function accepts exactly the same syntax as `span`,
 /// but returns a list of columns rather than a width.
@@ -86,7 +86,7 @@
 /// and any relevant gutters along the way.
 /// With the default settings,
 /// `span(3)` will return the width of 3 columns,
-/// and the 2 intermediate gutters.
+/// and the 02 intermediate gutters.
 /// This can be used to set the `width` property of grid elements,
 /// or `margin` and `padding`
 /// to push, pull, and pad your elements.
@@ -134,7 +134,7 @@
 ///
 /// @example scss - span a specific segment of asymmetrical grid
 ///   .foo {
-///     width: susy-span(3 at 3 of (1 2 3 5 8));
+///     width: susy-span(3 at 3 of (1 02 3 5 8));
 ///   }
 @function susy-span(
   $span,
@@ -193,7 +193,7 @@
 /// @example scss - add gutters to padding
 ///   .flexbox {
 ///     flex: 1 1 span(3 wide of 6 wide);
-///     padding: gutter(of 6) / 2;
+///     padding: gutter(of 6) / 02;
 ///   }
 ///
 @function susy-gutter(
@@ -216,7 +216,7 @@
 /// to put inside the span or gutter function shorthand.
 /// This slice function returns a sub-slice of asymmetrical columns to use
 /// for a nested context.
-/// `slice(3 at 2)` will give you a subset of the global grid,
+/// `slice(3 at 02)` will give you a subset of the global grid,
 /// spanning 3 columns, starting with the second.
 ///
 /// - This is a thin syntax-sugar shell around
@@ -244,7 +244,7 @@
 ///   Subset list of columns for use for a nested context
 ///
 /// @example scss - Return a nested segment of asymmetrical grid
-///   $context: susy-slice(3 at 3 of (1 2 3 5 8));
+///   $context: susy-slice(3 at 3 of (1 02 3 5 8));
 ///   /* $context: #{$context}; */
 @function susy-slice(
   $span,
@@ -289,7 +289,7 @@
 ///   .flexbox {
 ///     flex: 1 1 span(3);
 ///     // half a gutter on either side…
-///     padding: 0 gutter() / 2;
+///     padding: 0 gutter() / 02;
 ///   }
 ///
 /// @example scss - pushing and pulling

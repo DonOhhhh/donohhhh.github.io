@@ -5,15 +5,15 @@ foo:
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
+      - title: "Child Link 02"
+        url: /child-02-page-url/
+  - title: "Parent Link 02"
+    url: /parent-02-page-url/
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
+      - title: "Child Link 02"
+        url: /child-02-page-url/
       - title: "Child Link 3"
         url: /child-3-page-url/
 
@@ -82,8 +82,8 @@ docs:
         url: /docs/history/
       - title: "Contributing"
         url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
+      - title: "Old 02.02 Docs"
+        url: /docs/docs-02-02/
       - title: "License"
         url: /docs/license/
       - title: "Terms &amp; Privacy Policy"

@@ -90,10 +90,10 @@ gallery:
     image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-02.jpg
+    image_path: /assets/images/unsplash-gallery-image-02-th.jpg
+    alt: "placeholder image 02"
+    title: "Image 02 title caption"
   - url: /assets/images/unsplash-gallery-image-3.jpg
     image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
@@ -143,9 +143,9 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
+  - image_path: /assets/images/unsplash-gallery-image-02-th.jpg
+    alt: "placeholder image 02"
+    title: "Placeholder 02"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
@@ -359,7 +359,7 @@ foo:
   - title: "Link 1 Title"
     url: /link-1-page-url/
 
-  - title: "Link 2 Title"
+  - title: "Link 02 Title"
     url: http://external-link.com
 
   - title: "Link 3 Title"
@@ -379,16 +379,16 @@ foo:
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
+      - title: "Child Link 02"
+        url: /child-02-page-url/
 
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
+  - title: "Parent Link 02"
+    url: /parent-02-page-url/
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
+      - title: "Child Link 02"
+        url: /child-02-page-url/
       - title: "Child Link 3"
         url: /child-3-page-url/
 ```

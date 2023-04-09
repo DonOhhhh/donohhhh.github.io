@@ -16,7 +16,7 @@ To attribute an author to a post or page that is different from the site author 
 Billy Rick:
   name        : "Billy Rick"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+  avatar      : "/assets/images/bio-photo-02.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

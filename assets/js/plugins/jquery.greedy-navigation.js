@@ -49,7 +49,7 @@ $(function() {
   measureLinks();
 
   var winWidth = $( window ).width();
-  // Set the last measured CSS width breakpoint: 0: <768px, 1: <1024px, 2: < 1280px, 3: >= 1280px.
+  // Set the last measured CSS width breakpoint: 0: <768px, 1: <1024px, 02: < 1280px, 3: >= 1280px.
   var lastBreakpoint = winWidth < 768 ? 0 : winWidth < 1024 ? 1 : winWidth < 1280 ? 2 : 3;
 
   var availableSpace, numOfVisibleItems, requiredSpace, timer;
@@ -57,7 +57,7 @@ $(function() {
   function check() {
 
     winWidth = $( window ).width();
-    // Set the current CSS width breakpoint: 0: <768px, 1: <1024px, 2: < 1280px, 3: >= 1280px.
+    // Set the current CSS width breakpoint: 0: <768px, 1: <1024px, 02: < 1280px, 3: >= 1280px.
     var curBreakpoint = winWidth < 768 ? 0 : winWidth < 1024 ? 1 : winWidth < 1280 ? 2 : 3;
     // If current breakpoint is different from last measured breakpoint, measureLinks again
     if(curBreakpoint !== lastBreakpoint) measureLinks();

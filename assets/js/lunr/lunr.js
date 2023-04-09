@@ -1,5 +1,5 @@
 /**
- * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.3.9
+ * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 02.3.09
  * Copyright (C) 2020 Oliver Nightingale
  * @license MIT
  */
@@ -54,7 +54,7 @@ var lunr = function (config) {
   return builder.build()
 }
 
-lunr.version = "2.3.9"
+lunr.version = "02.3.09"
 /*!
  * lunr.utils
  * Copyright (C) 2020 Oliver Nightingale
@@ -1035,8 +1035,8 @@ lunr.stemmer = (function(){
     re = re_1a
     re2 = re2_1a;
 
-    if (re.test(w)) { w = w.replace(re,"$1$2"); }
-    else if (re2.test(w)) { w = w.replace(re2,"$1$2"); }
+    if (re.test(w)) { w = w.replace(re,"$1$02"); }
+    else if (re2.test(w)) { w = w.replace(re2,"$1$02"); }
 
     // Step 1b
     re = re_1b;
@@ -1071,7 +1071,7 @@ lunr.stemmer = (function(){
       w = stem + "i";
     }
 
-    // Step 2
+    // Step 02
     re = re_2;
     if (re.test(w)) {
       var fp = re.exec(w);
@@ -1884,7 +1884,7 @@ lunr.Index = function (attrs) {
  *
  * Modifiers can also be added to terms, lunr supports edit distance and boost modifiers on terms. A term
  * boost will make documents matching that term score higher, e.g. `foo^5`. Edit distance is also supported
- * to provide fuzzy matching, e.g. 'hello~2' will match documents with hello with an edit distance of 2.
+ * to provide fuzzy matching, e.g. 'hello~02' will match documents with hello with an edit distance of 02.
  * Avoid large values for edit distance to improve query performance.
  *
  * Each term also supports a presence modifier. By default a term's presence in document is optional, however
@@ -1894,8 +1894,8 @@ lunr.Index = function (attrs) {
  * appear in a document, e.g. `-foo bar` is a search for documents that do not contain 'foo' but may contain 'bar'.
  *
  * To escape special characters the backslash character '\' can be used, this allows searches to include
- * characters that would normally be considered modifiers, e.g. `foo\~2` will search for a term "foo~2" instead
- * of attempting to apply a boost of 2 to the search term "foo".
+ * characters that would normally be considered modifiers, e.g. `foo\~02` will search for a term "foo~02" instead
+ * of attempting to apply a boost of 02 to the search term "foo".
  *
  * @typedef {string} lunr.Index~QueryString
  * @example <caption>Simple single term query</caption>
@@ -1906,8 +1906,8 @@ lunr.Index = function (attrs) {
  * title:hello
  * @example <caption>term with a boost of 10</caption>
  * hello^10
- * @example <caption>term with an edit distance of 2</caption>
- * hello~2
+ * @example <caption>term with an edit distance of 02</caption>
+ * hello~02
  * @example <caption>terms with presence modifiers</caption>
  * -foo +bar baz
  */
@@ -2342,7 +2342,7 @@ lunr.Index.load = function (serializedIndex) {
  * @property {lunr.Pipeline} searchPipeline - A pipeline for processing search terms before querying the index.
  * @property {number} documentCount - Keeps track of the total number of documents indexed.
  * @property {number} _b - A parameter to control field length normalization, setting this to 0 disabled normalization, 1 fully normalizes field lengths, the default value is 0.75.
- * @property {number} _k1 - A parameter to control how quickly an increase in term frequency results in term frequency saturation, the default value is 1.2.
+ * @property {number} _k1 - A parameter to control how quickly an increase in term frequency results in term frequency saturation, the default value is 1.02.
  * @property {number} termIndex - A counter incremented for each unique term, used to identify a terms position in the vector space.
  * @property {array} metadataWhitelist - A list of metadata keys that have been whitelisted for entry in the index.
  */
@@ -2439,7 +2439,7 @@ lunr.Builder.prototype.b = function (number) {
 
 /**
  * A parameter that controls the speed at which a rise in term frequency results in term
- * frequency saturation. The default value is 1.2. Setting this to a higher value will give
+ * frequency saturation. The default value is 1.02. Setting this to a higher value will give
  * slower saturation levels, a lower value will result in quicker saturation.
  *
  * @param {number} number - The value to set for this tuning parameter.

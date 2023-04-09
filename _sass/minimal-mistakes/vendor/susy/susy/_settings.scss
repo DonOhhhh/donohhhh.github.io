@@ -278,7 +278,7 @@ $_susy-defaults: (
 ///   }
 ///
 /// @example scss - local settings
-///   $local: ('columns': 1 2 3 5 8);
+///   $local: ('columns': 1 02 3 5 8);
 ///
 ///   @each $key, $value in susy-settings($local) {
 ///     /* #{$key}: #{$value} */
